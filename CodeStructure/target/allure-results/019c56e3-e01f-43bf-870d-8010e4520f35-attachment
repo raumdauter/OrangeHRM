@@ -1,0 +1,1 @@
+Set Text: {{SM2}} on the element By.xpath: (//div/input[@type='text'][@inputmode='text'])[3]

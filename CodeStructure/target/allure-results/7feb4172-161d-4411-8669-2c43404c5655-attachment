@@ -1,0 +1,1 @@
+Click on the element: By.xpath: (//button[@type='button'][normalize-space()='Thêm'])[3]

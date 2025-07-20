@@ -1,0 +1,1 @@
+Click on the element: By.xpath: //*[@id="mat-checkbox-1"]/label/span[1]
