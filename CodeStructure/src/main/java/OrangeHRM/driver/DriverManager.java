@@ -3,7 +3,7 @@ package OrangeHRM.driver;
 import org.openqa.selenium.WebDriver;
 
 public class DriverManager {
-    private static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+    public static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
     // Set up driver to run Parallel
     private DriverManager() {

@@ -12,6 +12,7 @@ import OrangeHRM.helpers.ExcelHelper;
 public class CommonPage {
     public LoginPage loginPage;
     public ExcelHelper excel;
+    public RecruimentPage recruimentPage;
 
     //Object dùng chung
     public By displayNameArea = By.xpath("//div[@class='text-sm']");
@@ -35,6 +36,13 @@ public class CommonPage {
             loginPage = new LoginPage();
         }
         return loginPage;
+    }
+
+    public RecruimentPage getRecruimentPage() {
+        if (recruimentPage == null) {
+            recruimentPage = new RecruimentPage();
+        }
+        return recruimentPage;
     }
 
 }

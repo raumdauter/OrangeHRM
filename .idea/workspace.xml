@@ -4,37 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f670ae-418c-4ed5-b639-59bf185ba46f" name="Changes" comment="">
+    <list default="true" id="27f670ae-418c-4ed5-b639-59bf185ba46f" name="Changes" comment="change to Fosco">
+      <change afterPath="$PROJECT_DIR$/CodeStructure/src/test/java/test_OrangeHRM/testcases/RecruimentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/ExtentReports/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeStructure/ExtentReports/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/logs/app-properties.log" beforeDir="false" afterPath="$PROJECT_DIR$/CodeStructure/logs/app-properties.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/src/main/java/OrangeHRM/datatest/properties/Data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CodeStructure/src/main/java/OrangeHRM/datatest/properties/Data.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/src/main/java/OrangeHRM/utils/KeyWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeStructure/src/main/java/OrangeHRM/utils/KeyWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/src/test/java/test_HRM_anhtester/pages/NguonTaiTroKinhPhiPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/src/test/java/test_HRM_anhtester/testcases/NguonTaiTroKinhPhiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeStructure/src/main/java/OrangeHRM/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeStructure/src/main/java/OrangeHRM/driver/DriverManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeStructure/src/test/java/test_OrangeHRM/pages/CommonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeStructure/src/test/java/test_OrangeHRM/pages/CommonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/src/test/java/test_OrangeHRM/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeStructure/src/test/java/test_OrangeHRM/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/src/test/java/test_OrangeHRM/pages/NguonTaiTroKinhPhiPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/src/test/java/test_OrangeHRM/pages/TheContractPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/src/test/java/test_OrangeHRM/pages/TheCouncilPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/src/test/java/test_OrangeHRM/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeStructure/src/test/java/test_OrangeHRM/testcases/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/src/test/java/test_OrangeHRM/testcases/NguonTaiTroKinhPhiTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/src/test/java/test_OrangeHRM/testcases/TheContractTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/src/test/java/test_OrangeHRM/testcases/TheCouncilTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/target/classes/OrangeHRM/datatest/properties/Data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CodeStructure/target/classes/OrangeHRM/datatest/properties/Data.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/target/classes/OrangeHRM/utils/KeyWork.class" beforeDir="false" afterPath="$PROJECT_DIR$/CodeStructure/target/classes/OrangeHRM/utils/KeyWork.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/target/test-classes/test_OrangeHRm/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/CodeStructure/target/test-classes/test_OrangeHRm/base/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/target/test-classes/test_OrangeHRm/listeners/RunCMD.class" beforeDir="false" afterPath="$PROJECT_DIR$/CodeStructure/target/test-classes/test_OrangeHRm/listeners/RunCMD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/target/test-classes/test_OrangeHRm/listeners/TestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/CodeStructure/target/test-classes/test_OrangeHRm/listeners/TestListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/target/test-classes/test_OrangeHRm/pages/CommonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CodeStructure/target/test-classes/test_OrangeHRm/pages/CommonPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/target/test-classes/test_OrangeHRm/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CodeStructure/target/test-classes/test_OrangeHRm/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/target/test-classes/test_OrangeHRm/pages/NguonTaiTroKinhPhiPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/target/test-classes/test_OrangeHRm/pages/TheContractPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/target/test-classes/test_OrangeHRm/pages/TheCouncilPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/target/test-classes/test_OrangeHRm/testcases/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/CodeStructure/target/test-classes/test_OrangeHRm/testcases/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/target/test-classes/test_OrangeHRm/testcases/NguonTaiTroKinhPhiTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/target/test-classes/test_OrangeHRm/testcases/TheContractTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStructure/target/test-classes/test_OrangeHRm/testcases/TheCouncilTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeStructure/src/test/java/test_OrangeHRM/pages/CreateRecruiment" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +26,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;MERGED&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;MERGED&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/raumdauter/OrangeHRM.git&quot;,
+    &quot;accountId&quot;: &quot;2ad321fe-8d7a-488a-95db-0ae3a373e160&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -62,18 +53,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/QA_project/OrangeHRM/OrangeHRM",
-    "settings.editor.selected.configurable": "terminal"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.TestURL.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/QA_project/OrangeHRM/OrangeHRM&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="TestURL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test_OrangeHRM.testcases.TestURL" />
@@ -103,6 +95,65 @@
       <option name="presentableId" value="Default" />
       <updated>1705395691623</updated>
     </task>
+    <task id="LOCAL-00001" summary="change to Fosco">
+      <option name="closed" value="true" />
+      <created>1754585603961</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754585603962</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change to Fosco">
+      <option name="closed" value="true" />
+      <created>1754585707577</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754585707577</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/test" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/test" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change to Fosco" />
+    <option name="LAST_COMMIT_MESSAGE" value="change to Fosco" />
   </component>
 </project>
