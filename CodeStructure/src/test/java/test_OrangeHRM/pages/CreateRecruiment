@@ -1,0 +1,35 @@
+package test_OrangeHRM.pages;
+
+import org.checkerframework.checker.units.qual.K;
+import org.openqa.selenium.By;
+
+import OrangeHRM.helpers.PropertiesHelper;
+import OrangeHRM.utils.KeyWork;
+
+public class CreateRecruiment extends CommonPage {
+
+    private By QLLDTab = By.xpath("//button[@id='radix-«r26»-trigger-/foreign-labor-regulation']");
+
+    private By btnAddNew = By.xpath("//a[@type='button']");
+    //form add new recruitment
+    private By dropdownUnitName = By.xpath("//button[@id='«rp»-form-item']");
+    private By searchboxUnitName = By.xpath("//input[@id='radix-«r1m»']");
+    private By allItemsInList = By.xpath("//div[@role='group']");
+    private By disableAddreasUnit = By.xpath("//form/div[1]/div[2]//input");
+    private By inputPosition = By.xpath("//input[@id='«r13»-form-item']");
+    private By inputNumberApplicants = By.xpath("//input[@id='«r14»-form-item']");
+    private By inputSalary = By.xpath("//input[@id='«r15»-form-item']")
+    private By inputWorkPlace = By.xpath("//input[@id='«r16»-form-item']");
+    private By inputStartworkTime = By.xpath("//div[7]//div[1]//div[1]");
+    private By btnCalendarStartworkTime = By.xpath("//button[@aria-expanded='true']");
+    private By inputExpireTimeRecruiment = By.xpath("//form/div[1]/div[8]/div");
+    private By btnCalendarExpireTimeRecruiment = By.xpath("//form/div[1]/div[8]/div/button");
+
+    public void createRecruitment(String recruitmentName, String positionName) {
+        KeyWork.openURL(PropertiesHelper.getValue("URL"));
+        KeyWork.setText(inputRecruitmentTextbox, recruitmentName);
+        KeyWork.setText(inputPositionTextbox, positionName);
+        KeyWork.clickElement(clickOnCreateButton);
+        KeyWork.verifyElementText(getTextRecruitmentList, "Danh sách tuyển dụng", "Tạo tuyển dụng không thành công");
+    }
+}
