@@ -7,6 +7,7 @@ import test_OrangeHRM.base.BaseTest;
 public class LoginTest extends BaseTest {
     @Test
     public void TC_loginAdmin(){
-        getLoginPage().loginAdmin("admin","admin123");
+        getLoginPage().loginAdmin("admin","12345678");
+        loginPage.dangXuat();
     }
 }

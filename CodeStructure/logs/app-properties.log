@@ -2506,3 +2506,95 @@ Session ID: b9d6df7085ffc472a9a8a74efad6af19
 [INFO] 21-07-2025 00:42:45 [main] Log - EXPECTED RESULT Text is: Dashboard
 [INFO] 21-07-2025 00:42:45 [main] Log - TC_loginAdmin is passed.
 [INFO] 21-07-2025 00:42:46 [main] Log - Finish Suite: Mon Jul 21 00:42:46 ICT 2025
+[INFO] 21-07-2025 01:38:15 [main] Log - Start Suite: Mon Jul 21 01:38:15 ICT 2025
+[INFO] 21-07-2025 01:38:25 [main] Log - Open: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] 21-07-2025 01:38:25 [main] Log - Set Text: admin on the element By.xpath: //input[@placeholder='Username']
+[INFO] 21-07-2025 01:38:25 [main] Log - Set Text: admin123 on the element By.xpath: //input[@placeholder='Password']
+[INFO] 21-07-2025 01:38:26 [main] Log - Click on the element: By.xpath: //button[normalize-space()='Login']
+[INFO] 21-07-2025 01:38:28 [main] Log - ACTUAL RESULT: Text of the element is: Dashboard
+[INFO] 21-07-2025 01:38:28 [main] Log - EXPECTED RESULT Text is: Dashboard
+[INFO] 21-07-2025 01:38:28 [main] Log - TC_loginAdmin is passed.
+[INFO] 21-07-2025 01:38:30 [main] Log - Finish Suite: Mon Jul 21 01:38:30 ICT 2025
+[INFO] 22-07-2025 00:48:04 [main] Log - Start Suite: Tue Jul 22 00:48:04 ICT 2025
+[INFO] 22-07-2025 00:48:08 [main] Log - Open: https://fosco.erp.meu-solutions.com/vi/auth/sign-in
+[INFO] 22-07-2025 00:48:08 [main] Log - Set Text: admin on the element By.xpath: //input[@id='«r3»-form-item']
+[INFO] 22-07-2025 00:48:08 [main] Log - Set Text: admin123 on the element By.xpath: //input[@id='«r4»-form-item']
+[INFO] 22-07-2025 00:48:09 [main] Log - Click on the element: By.xpath: //button[contains(text(),'Đăng nhập')]
+[ERROR] 22-07-2025 00:48:21 [main] Log - TIMEOUT: Can not element visible: By.xpath: //h6[normalize-space()='Dashboard']
+[ERROR] 22-07-2025 00:48:21 [main] Log - TC_loginAdmin is failed.
+[INFO] 22-07-2025 00:48:22 [main] Log - Finish Suite: Tue Jul 22 00:48:22 ICT 2025
+[INFO] 22-07-2025 00:48:41 [main] Log - Start Suite: Tue Jul 22 00:48:41 ICT 2025
+[INFO] 22-07-2025 00:48:45 [main] Log - Open: https://fosco.erp.meu-solutions.com/vi/auth/sign-in
+[ERROR] 22-07-2025 00:49:15 [main] Log - TIMEOUT: Can not element visible: By.xpath: //input[@id='«r3»-form-item']
+[ERROR] 22-07-2025 00:49:15 [main] Log - TC_loginAdmin is failed.
+[INFO] 22-07-2025 00:49:16 [main] Log - Finish Suite: Tue Jul 22 00:49:16 ICT 2025
+[INFO] 22-07-2025 00:52:12 [main] Log - Start Suite: Tue Jul 22 00:52:11 ICT 2025
+[INFO] 22-07-2025 00:52:15 [main] Log - Open: https://fosco.erp.meu-solutions.com/vi/auth/sign-in
+[ERROR] 22-07-2025 00:52:46 [main] Log - TIMEOUT: Can not element visible: By.xpath: //input[@id='«r3»-form-item']
+[ERROR] 22-07-2025 00:52:46 [main] Log - TC_loginAdmin is failed.
+[INFO] 22-07-2025 00:52:47 [main] Log - Finish Suite: Tue Jul 22 00:52:47 ICT 2025
+[INFO] 22-07-2025 01:00:50 [main] Log - Start Suite: Tue Jul 22 01:00:49 ICT 2025
+[INFO] 22-07-2025 01:00:53 [main] Log - Open: https://fosco.erp.meu-solutions.com/vi/auth/sign-in
+[INFO] 22-07-2025 01:00:53 [main] Log - Set Text: admin on the element By.xpath: //form/div/div[2]/div[1]/input
+[INFO] 22-07-2025 01:00:54 [main] Log - Set Text: 12345678 on the element By.xpath: //form//div[2]/div[2]/div/input
+[INFO] 22-07-2025 01:00:54 [main] Log - Click on the element: By.xpath: //button[contains(text(),'Đăng nhập')]
+[ERROR] 22-07-2025 01:01:14 [main] Log - TIMEOUT: Can not element visible: By.xpath: //h6[normalize-space()='Dashboard']
+[ERROR] 22-07-2025 01:01:14 [main] Log - TC_loginAdmin is failed.
+[INFO] 22-07-2025 01:01:15 [main] Log - Finish Suite: Tue Jul 22 01:01:15 ICT 2025
+[INFO] 22-07-2025 01:04:12 [main] Log - Start Suite: Tue Jul 22 01:04:12 ICT 2025
+[INFO] 22-07-2025 01:04:16 [main] Log - Open: https://fosco.erp.meu-solutions.com/vi/auth/sign-in
+[INFO] 22-07-2025 01:04:16 [main] Log - Set Text: admin on the element By.xpath: //form/div/div[2]/div[1]/input
+[INFO] 22-07-2025 01:04:17 [main] Log - Set Text: 12345678 on the element By.xpath: //form//div[2]/div[2]/div/input
+[INFO] 22-07-2025 01:04:17 [main] Log - Click on the element: By.xpath: //button[contains(text(),'Đăng nhập')]
+[ERROR] 22-07-2025 01:04:17 [main] Log - TIMEOUT: Can not element visible: By.xpath: ///span[.='Danh sách người dùng']
+[ERROR] 22-07-2025 01:04:17 [main] Log - TC_loginAdmin is failed.
+[INFO] 22-07-2025 01:04:18 [main] Log - Finish Suite: Tue Jul 22 01:04:18 ICT 2025
+[INFO] 22-07-2025 01:05:12 [main] Log - Start Suite: Tue Jul 22 01:05:11 ICT 2025
+[INFO] 22-07-2025 01:05:15 [main] Log - Open: https://fosco.erp.meu-solutions.com/vi/auth/sign-in
+[INFO] 22-07-2025 01:05:15 [main] Log - Set Text: admin on the element By.xpath: //form/div/div[2]/div[1]/input
+[INFO] 22-07-2025 01:05:16 [main] Log - Set Text: 12345678 on the element By.xpath: //form//div[2]/div[2]/div/input
+[INFO] 22-07-2025 01:05:16 [main] Log - Click on the element: By.xpath: //button[contains(text(),'Đăng nhập')]
+[INFO] 22-07-2025 01:05:18 [main] Log - ACTUAL RESULT: Text of the element is: Danh sách người dùng
+[INFO] 22-07-2025 01:05:18 [main] Log - EXPECTED RESULT Text is: Danh sách người dùng
+[INFO] 22-07-2025 01:05:18 [main] Log - TC_loginAdmin is passed.
+[INFO] 22-07-2025 01:05:19 [main] Log - Finish Suite: Tue Jul 22 01:05:19 ICT 2025
+[INFO] 07-08-2025 15:41:43 [main] Log - Start Suite: Thu Aug 07 15:41:42 ICT 2025
+[INFO] 07-08-2025 15:41:53 [main] Log - Open: https://fosco.erp.meu-solutions.com/vi/auth/sign-in
+[INFO] 07-08-2025 15:41:53 [main] Log - Set Text: admin on the element By.xpath: //form/div/div[2]/div[1]/input
+[INFO] 07-08-2025 15:41:53 [main] Log - Set Text: 12345678 on the element By.xpath: //form//div[2]/div[2]/div/input
+[INFO] 07-08-2025 15:41:53 [main] Log - Click on the element: By.xpath: //button[contains(text(),'Đăng nhập')]
+[INFO] 07-08-2025 15:41:56 [main] Log - ACTUAL RESULT: Text of the element is: Danh sách người dùng
+[INFO] 07-08-2025 15:41:56 [main] Log - EXPECTED RESULT Text is: Danh sách người dùng
+[INFO] 07-08-2025 15:41:56 [main] Log - TC_loginAdmin is passed.
+[INFO] 07-08-2025 15:41:57 [main] Log - Finish Suite: Thu Aug 07 15:41:57 ICT 2025
+[INFO] 07-08-2025 15:48:29 [main] Log - Start Suite: Thu Aug 07 15:48:29 ICT 2025
+[INFO] 07-08-2025 15:48:33 [main] Log - Open: https://fosco.erp.meu-solutions.com/vi/auth/sign-in
+[INFO] 07-08-2025 15:48:34 [main] Log - Set Text: admin on the element By.xpath: //form/div/div[2]/div[1]/input
+[INFO] 07-08-2025 15:48:34 [main] Log - Set Text: 12345678 on the element By.xpath: //form//div[2]/div[2]/div/input
+[INFO] 07-08-2025 15:48:34 [main] Log - Click on the element: By.xpath: //button[contains(text(),'Đăng nhập')]
+[INFO] 07-08-2025 15:48:37 [main] Log - ACTUAL RESULT: Text of the element is: Danh sách người dùng
+[INFO] 07-08-2025 15:48:37 [main] Log - EXPECTED RESULT Text is: Danh sách người dùng
+[INFO] 07-08-2025 15:48:37 [main] Log - TC_loginAdmin is passed.
+[INFO] 07-08-2025 15:48:37 [main] Log - Finish Suite: Thu Aug 07 15:48:37 ICT 2025
+[INFO] 07-08-2025 15:50:30 [main] Log - Start Suite: Thu Aug 07 15:50:29 ICT 2025
+[INFO] 07-08-2025 15:50:34 [main] Log - Open: https://fosco.erp.meu-solutions.com/vi/auth/sign-in
+[INFO] 07-08-2025 15:50:34 [main] Log - Set Text: admin on the element By.xpath: //form/div/div[2]/div[1]/input
+[INFO] 07-08-2025 15:50:34 [main] Log - Set Text: 12345678 on the element By.xpath: //form//div[2]/div[2]/div/input
+[INFO] 07-08-2025 15:50:35 [main] Log - Click on the element: By.xpath: //button[contains(text(),'Đăng nhập')]
+[INFO] 07-08-2025 15:50:37 [main] Log - ACTUAL RESULT: Text of the element is: Danh sách người dùng
+[INFO] 07-08-2025 15:50:37 [main] Log - EXPECTED RESULT Text is: Danh sách người dùng
+[INFO] 07-08-2025 15:50:38 [main] Log - Click on the element: By.xpath: //div[@class='text-sm']
+[INFO] 07-08-2025 15:50:38 [main] Log - Click on the element: By.xpath: //div[@role='menuitem']
+[INFO] 07-08-2025 15:50:38 [main] Log - TC_loginAdmin is passed.
+[INFO] 07-08-2025 15:50:38 [main] Log - Finish Suite: Thu Aug 07 15:50:38 ICT 2025
+[INFO] 07-08-2025 15:50:58 [main] Log - Start Suite: Thu Aug 07 15:50:57 ICT 2025
+[INFO] 07-08-2025 15:51:02 [main] Log - Open: https://fosco.erp.meu-solutions.com/vi/auth/sign-in
+[INFO] 07-08-2025 15:51:02 [main] Log - Set Text: admin on the element By.xpath: //form/div/div[2]/div[1]/input
+[INFO] 07-08-2025 15:51:03 [main] Log - Set Text: 12345678 on the element By.xpath: //form//div[2]/div[2]/div/input
+[INFO] 07-08-2025 15:51:03 [main] Log - Click on the element: By.xpath: //button[contains(text(),'Đăng nhập')]
+[INFO] 07-08-2025 15:51:05 [main] Log - ACTUAL RESULT: Text of the element is: Danh sách người dùng
+[INFO] 07-08-2025 15:51:05 [main] Log - EXPECTED RESULT Text is: Danh sách người dùng
+[INFO] 07-08-2025 15:51:06 [main] Log - Click on the element: By.xpath: //div[@class='text-sm']
+[INFO] 07-08-2025 15:51:06 [main] Log - Click on the element: By.xpath: //div[@role='menuitem']
+[INFO] 07-08-2025 15:51:06 [main] Log - TC_loginAdmin is passed.
+[INFO] 07-08-2025 15:51:07 [main] Log - Finish Suite: Thu Aug 07 15:51:07 ICT 2025

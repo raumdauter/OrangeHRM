@@ -8,16 +8,16 @@ import OrangeHRM.utils.KeyWork;
 
 public class LoginPage extends CommonPage {
 
-    private By inputUserNameTextbox = By.xpath("//input[@placeholder='Username']");
-    private By inputPasswordTextbox = By.xpath("//input[@placeholder='Password']");
-    private By clickOnLoginButton = By.xpath("//button[normalize-space()='Login']");
-    private By getTextDashboard = By.xpath("//h6[normalize-space()='Dashboard']");
+    private By inputUserNameTextbox = By.xpath("//form/div/div[2]/div[1]/input");
+    private By inputPasswordTextbox = By.xpath("//form//div[2]/div[2]/div/input");
+    private By clickOnLoginButton = By.xpath("//button[contains(text(),'Đăng nhập')]");
+    private By getTextDashboard = By.xpath("//span[.='Danh sách người dùng']");
 
     public void loginAdmin(String Username, String Password){
         KeyWork.openURL(PropertiesHelper.getValue("URL"));
         KeyWork.setText(inputUserNameTextbox,Username);
         KeyWork.setText(inputPasswordTextbox,Password);
         KeyWork.clickElement(clickOnLoginButton);
-        KeyWork.verifyElementText(getTextDashboard,"Dashboard","Đăng nhập không thành công");
+        KeyWork.verifyElementText(getTextDashboard,"Danh sách người dùng","Đăng nhập không thành công");
     }
 }

@@ -606,4 +606,9 @@ public class KeyWork {
         select.selectByVisibleText(Text);
     }
 
+    public static void closeBrowser() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'closeBrowser'");
+    }
+
 }

@@ -1,14 +1,28 @@
 package test_OrangeHRM.pages;
 
 
+import java.security.Key;
+
+import org.checkerframework.checker.units.qual.K;
+import org.openqa.selenium.By;
+import org.testng.annotations.AfterSuite;
+import OrangeHRM.utils.KeyWork;
 import OrangeHRM.helpers.ExcelHelper;
 
 public class CommonPage {
     public LoginPage loginPage;
     public ExcelHelper excel;
-    public TheContractPage theContractPage;
-    public TheCouncilPage theCouncilPage;
-    public NguonTaiTroKinhPhiPage nguonTaiTroKinhPhiPage;
+
+    //Object dùng chung
+    public By displayNameArea = By.xpath("//div[@class='text-sm']");
+    public By btnLogout = By.xpath("//div[@role='menuitem']");
+
+    @AfterSuite
+    public LoginPage dangXuat() {
+       KeyWork.clickElement(displayNameArea);
+       KeyWork.clickElement(btnLogout);
+       return getLoginPage();
+    }
 
     public ExcelHelper getExcel() {
         if (excel == null) {
@@ -23,24 +37,4 @@ public class CommonPage {
         return loginPage;
     }
 
-    public TheCouncilPage getTheCouncilPage(){
-        if (theCouncilPage== null) {
-            theCouncilPage = new TheCouncilPage();
-        }
-        return theCouncilPage;
-    }
-
-    public  TheContractPage getTheContractPage(){
-        if (theContractPage == null) {
-            theContractPage = new TheContractPage();
-        }
-        return theContractPage;
-    }
-
-    public  NguonTaiTroKinhPhiPage getNguonTaiTroKinhPhiPage() {
-        if (nguonTaiTroKinhPhiPage == null) {
-            nguonTaiTroKinhPhiPage = new NguonTaiTroKinhPhiPage();
-        }
-        return nguonTaiTroKinhPhiPage;
-    }
 }
